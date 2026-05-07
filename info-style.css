@@ -3,7 +3,7 @@ img.blinky{
 	margin: 0px;
 }
 img.main{
-	max-width: 400px;
+    max-width: calc(100%-60px);
     object-fit: cover;
 }
 #images{
@@ -32,4 +32,10 @@ img.main{
 .credit{
     padding-inline-start: 2px;
   	background-color: #8ca9c0ee;
+}
+
+@media only screen and (min-width: 768px) {
+    img.main{
+        max-width: 300px;
+    }
 }
