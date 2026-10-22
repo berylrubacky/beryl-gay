@@ -1,12 +1,13 @@
 body{
+	background-color: #e6e6e6;
+	background-image: url(/src/images/CLOVER1.JPG);
 	display: flex;
 	justify-content: center;
   	align-content: center;
   	align-items: center;
   	flex-wrap: wrap;
 	margin: 0px;
-	background-color: #e6e6e6;
-	background-image: url(images/CLOVER1.JPG);
+	padding-bottom: 20px;
 }
 img.blinky{
 	width: 150px;
