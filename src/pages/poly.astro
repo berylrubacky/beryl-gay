@@ -1,13 +1,16 @@
 ---
 import Info from "../components/Info.astro";
+import { Image } from 'astro:assets';
+import mainImage from '../images/beryl sugardrift valentines king astro.png';
+import polyam from '../images/polyam.gif';
 ---
 <Info title="Beryl's Polyamory">
     <Fragment slot="image">
-        <img class="main" src="../images/beryl sugardrift valentines king astro.png" alt="Beryl the Bunny being kissed by both King the Lynx, and Astrognash the Otter">
+        <Image class="main" src={mainImage} alt="Beryl the Bunny being kissed by both King the Lynx, and Astrognash the Otter" style="width:300px; height:auto;"/>
         <div class="credit">Art by <a class="external" href="https://sugardrift.carrd.co/">Sugardrift</a></div>
     </Fragment>
     <Fragment slot="blinkies">
-        <img class="blinky" src="../images/polyam.gif"/>
+        <Image class="blinky" src={polyam} alt="POLYAMOROUS"/>
     </Fragment>
     <p>
         I have <strong>2</strong> wonderful partners who I love very much.

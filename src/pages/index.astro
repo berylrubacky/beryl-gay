@@ -1,5 +1,11 @@
 ---
 import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+import mainImage from '../images/beryl puppy badge.jpeg';
+import teaBooksBlinky from '../images/tea_books.gif';
+import jetBlinky from '../images/jet_squelcher.gif';
+import teaBlinky from '../images/tea_love.gif';
+import antiAiBlinky from '../images/anti ai.gif';
 import "../css/style.css"
 import "../css/bio-style.css"
 ---
@@ -11,15 +17,15 @@ import "../css/bio-style.css"
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<title>Beryl</title>
-    	<link rel="icon" href="../images/favicon.svg" sizes="any" type="image/svg+xml">
-    	<link rel="preconnect" href="https://fonts.googleapis.com">
-    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    	<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="icon" href="../../public/favicon.svg" sizes="any" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 	</head>
 	<body>
     <div id="container">
         <div id="icon">
-          <img src="src/images/beryl puppy badge.jpeg">
+          <Image src={mainImage} alt="Beryl the Fisher's head over their name"/>
         </div>
         <div id="bio">
           <div class="credit">Art by <a href="https://www.parttimepuppy.com/">Part Time Puppy</a></div>
@@ -35,10 +41,10 @@ import "../css/bio-style.css"
           </p>
         </div>
         <div id="blinkies">
-          <img class="blinky" src="../images/tea_books.gif"/>
-          <img class="blinky" src="../images/jet_squelcher.gif"/>
-          <img class="blinky" src="../images/tea_love.gif"/>
-          <img class="blinky" src="../images/anti ai.gif"/>
+          <Image class="blinky" src={teaBooksBlinky} alt="tea and books"/>
+          <Image class="blinky" src={jetBlinky} alt="Jet Squelcher"/>
+          <Image class="blinky" src={teaBlinky} alt="I love drinking tea!"/>
+          <Image class="blinky" src={antiAiBlinky} alt="This is an Anti-Ai site"/>
         </div>
       
     </div>

@@ -1,21 +1,29 @@
 ---
-import Info from '../components/Info.astro'
+import Info from '../components/Info.astro';
+import { Image } from 'astro:assets';
+import mainImage from '../images/beryl minky duck.jpg';
+import nonbinary from '../images/nonbinary.gif';
+import genderless from '../images/genderless.gif';
+import greyAce from '../images/grey_ace.gif';
+import bunnyPronouns from '../images/pronouns_bunny.gif';
+import selfMade from '../images/selfmade_being.gif';
+import pan from '../images/all are hot.gif';
 ---
 <audio id="nothing">
-    <source src="/src/nothing.mp3" type="audio/mpeg">
+    <source src="/nothing.mp3" type="audio/mpeg">
 </audio>
 <Info title="Beryl's Queerness">
     <Fragment slot="image">
-        <img class="main" src="../images/beryl minky duck.jpg" alt="Beryl the Bunny wearing a kiwi shirt and shorts, holding a non-binary pride colored duck, surounded by the words 'NOT A DOE OR A BUCK'">
+        <Image class="main" src={mainImage} alt="Beryl the Bunny wearing a kiwi shirt and shorts, holding a non-binary pride colored duck, surounded by the words 'NOT A DOE OR A BUCK'" style="width:300px;height:auto;"/>
         <div class="credit">Pride art by <a class="external" href="https://www.minkytaro.com">MinkyTaro</a></div>
     </Fragment>
     <Fragment slot="blinkies">
-        <img class="blinky" src="../images/nonbinary.gif"/>
-        <img class="blinky" src="../images/genderless.gif"/>
-        <img class="blinky" src="../images/grey_ace.gif"/>
-        <img class="blinky" src="../images/pronouns_bunny.gif"/>
-        <img class="blinky" src="../images/selfmade_being.gif"/>
-        <img class="blinky" src="../images/all are hot.gif"/>
+        <Image class="blinky" src={nonbinary} alt="wtf is gender"/>
+        <Image class="blinky" src={genderless} alt="GENDERLESS"/>
+        <Image class="blinky" src={greyAce} alt="greysexual"/>
+        <Image class="blinky" src={bunnyPronouns} alt="IT/THEM"/>
+        <Image class="blinky" src={selfMade} alt="SELF-MADE BEING"/>
+        <Image class="blinky" src={pan} alt="all are hot"/>
     </Fragment>
     <p>
         I am an <strong>AGENDER</strong> critter. I don't strongly relate to either gender, and instead of occupying a middle ground I prefer to appear <strong>GENDERLESS</strong>.

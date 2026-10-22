@@ -1,15 +1,20 @@
 ---
 import Info from '../components/Info.astro';
+import { Image } from 'astro:assets';
+import mainImage from '../images/beryl reese smoke gaypossum ane.jpg';
+import plural from '../images/plural.gif';
+import system from '../images/system.gif';
+import nonverbal from '../images/nonverbal.gif';
 ---
 <Info title="Beryl's System">
     <Fragment slot="image">
-        <img class="main" src="../images/beryl reese smoke gaypossum ane.jpg" alt="From Left to Right, Smoke the Pine Marten, Beryl the Bunny, and Reese the Rat">
+        <Image class="main" src={mainImage} alt="From Left to Right, Smoke the Pine Marten, Beryl the Bunny, and Reese the Rat" style="weight:300px;height:auto;"/>
         <div class="credit">Art by <a class="external" href="https://thegaypossum.carrd.co/">The Gay Possum</a></div>
     </Fragment>
     <Fragment slot="blinkies">
-        <img class="blinky" src="../images/plural.gif"/>
-        <img class="blinky" src="../images/system.gif"/>
-        <img class="blinky" src="../images/nonverbal.gif"/>
+        <Image class="blinky" src={plural} alt="PLURAL AND PROUD"/>
+        <Image class="blinky" src={system} alt="WE'RE A SYSTEM"/>
+        <Image class="blinky" src={nonverbal} alt="I'm non-verbal right now"/>
     </Fragment>
     <p>
         I am a <strong>PLURAL SYSTEM</strong>, with three identified members.
