@@ -1,6 +1,6 @@
 body{
 	background-color: #e6e6e6;
-	background-image: url(/src/images/CLOVER1.JPG);
+	background-image: url(../images/CLOVER1.JPG);
 	display: flex;
 	justify-content: center;
   	align-content: center;
