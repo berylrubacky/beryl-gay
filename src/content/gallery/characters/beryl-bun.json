@@ -1,0 +1,42 @@
+ [
+    {
+        "id": "beryl-bun",
+        "name": "Beryl",
+        "species": "Rabbit",
+        "pronouns": "It/Them",
+        "description": "Beryl is my original sona from '22. They are an American Blue Rabbit with green fur. It is currently retired as I am keeping my bunny side closer to the chest.",
+        "icon":"",
+        "gallery":[
+            {
+                "file":"./images/gallery/beryl minky duck.jpg",
+                "alt_text":"Beryl the Bunny wearing a kiwi shirt and shorts, holding a non-binary pride colored duck, surounded by the words 'NOT A DOE OR A BUCK'",
+                "description":"",
+                "tags":["queer"],
+                "artist":{ 
+                    "name":"MinkyTaro",
+                    "link":"https://www.minkytaro.com"
+                }
+            },
+            {
+                "file":"./images/gallery/beryl rome pride.png",
+                "alt_text": "Beryl the Bunny wearing a kiwi shirt and a Trans Pride flower crown, on a Nonhuman Unity flag background",
+                "description":"",
+                "tags":["therian"],
+                "artist":{
+                    "name":"RomeCartoons",
+                    "link":"https://rometwin.com/about"
+                }
+            },
+            {
+                "file":"./images/gallery/beryl sugardrift valentines king astro.png",
+                "alt_text":"Beryl the Bunny being kissed by both King the Lynx, and Astrognash the Otter",
+                "description":"",
+                "tags":["poly"],
+                "artist":{
+                    "name":"Sugardrift",
+                    "link":"https://sugardrift.carrd.co/"
+                }
+            }
+        ]
+    }
+ ]
